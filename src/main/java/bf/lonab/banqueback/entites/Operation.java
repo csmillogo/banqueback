@@ -40,7 +40,6 @@ public class Operation extends AbstractEntity{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private Date dateOperation;
 	private double montant;
 	@Column(name = "Type_Operation", insertable = false,  updatable = false)
 	private String type;
